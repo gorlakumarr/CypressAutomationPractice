@@ -15,11 +15,15 @@
     "headTest": "npm run test -- --headed",
     "chromeTest": "npm run test -- --browser chrome"
   },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
   "keywords": [],
   "author": "Kumar",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^8.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.0",
     "cypress-file-upload": "^5.0.8",
     "cypress-iframe": "^1.0.1",
     "cypress-mochawesome-reporter": "^2.3.0",
@@ -27,7 +31,8 @@
     "mocha": "^9.1.3",
     "mochawesome": "^7.0.1",
     "mochawesome-merge": "^4.2.0",
-    "mochawesome-report-generator": "^6.0.1"
+    "mochawesome-report-generator": "^6.0.1",
+    "multiple-cucumber-html-reporter": "^1.18.0"
   },
   "dependencies": {
     "chai": "^4.3.4"
