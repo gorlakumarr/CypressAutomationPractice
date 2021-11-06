@@ -20,4 +20,4 @@ bin-release/
 
 D:\CypressAutomationPractice\cypress\reports\*/
 D:\CypressAutomationPractice\cypress\screenshots\*/
-D:\CypressAutomationPractice\cypress\videos\*/
+# D:\CypressAutomationPractice\cypress\videos\*/
