@@ -1,2 +1,1 @@
-# CypressAutomation_BasicToAdvanced
-Cypress Automation Basic to Advanced
+CypressAutomationPractice for beginner level to advanced
