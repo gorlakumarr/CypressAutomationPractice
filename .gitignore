@@ -18,6 +18,6 @@ bin-release/
 # information for Eclipse / Flash Builder.
 
 
-D:\CypressAutomationPractice\cypress\reports/
-D:\CypressAutomationPractice\cypress\screenshots/
-D:\CypressAutomationPractice\cypress\videos/
+# D:\CypressAutomationPractice\cypress\reports/
+# D:\CypressAutomationPractice\cypress\screenshots/
+# D:\CypressAutomationPractice\cypress\videos/
