@@ -1,0 +1,40 @@
+{
+  "defaultCommandTimeout": 20000,
+  "pageLoadTimeout": 10000,
+  "modifyObstructiveCode": true,
+  "experimentalSourceRewriting": true,
+  "chromeWebSecurity": true,
+  "projectId": "7e5ji6",
+  "ignoreTestFiles": "{**/1-getting-started/*,**/2-advanced-examples/*}",
+  "viewportHeight": 1000,
+  "viewportWidth": 1500,
+  "env": {
+    "url": "https://rahulshettyacademy.com/angularpractice/"
+  },
+  "retries": {
+    "runMode": 2,
+    "openMode": 0
+  },
+  "db": {
+    "userName": "adminchinnu",
+    "password": "Gkm@0801",
+    "server": "chinnu.database.windows.net",
+    "options": {
+      "database": "chinnu",
+      "encrypt": true,
+      "rowCollectionOnRequestCompletion": true
+    }
+  },
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "reporterEnabled": "mochawesome",
+    "mochawesomeReporterOptions": {
+      "reportDir": "cypress/reports/mocha",
+      "quite": true,
+      "overwrite": false,
+      "html": true,
+      "json": true,
+      "charts": true
+    }
+  }
+}
